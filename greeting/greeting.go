@@ -1,6 +1,10 @@
 package greeting
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/raye17/subDemo/utils"
+)
 
 func Hello(name string) string {
 	fmt.Println("this is subDemo")
@@ -9,5 +13,6 @@ func Hello(name string) string {
 	return "Hello, World!,my name is " + name
 }
 func Hello2(name string) {
+	utils.Say()
 	fmt.Println("this is subDemo2")
 }
