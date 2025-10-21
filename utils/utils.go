@@ -13,3 +13,7 @@ func NewUuid() string {
 	uuid := uuid.New()
 	return uuid.String()
 }
+func NewUuidShort() string {
+	uuid := uuid.New()
+	return uuid.String()[:8]
+}
