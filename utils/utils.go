@@ -15,5 +15,6 @@ func NewUuid() string {
 }
 func NewUuidShort() string {
 	uuid := uuid.New()
+	fmt.Println("this is update by main")
 	return uuid.String()[:8]
 }
